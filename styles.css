@@ -258,8 +258,8 @@ body {
     text-align: center;
 }*/
 .hero-image img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: var(--shadow);
@@ -268,14 +268,14 @@ body {
     justify-content: flex-end;
 }   
 .placeholder-image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     border-radius: 20px;
     display: flex;
-    /*align-items: center;*/
-    justify-content: flex-end;
+    align-items: center;
+    /*justify-content: flex-end;*/
     font-size: 150px;
     color: rgba(255, 255, 255, 0.3);
     box-shadow: var(--shadow);
