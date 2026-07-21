@@ -148,6 +148,8 @@ body {
     background-clip: text;
 }*/
 .logo {
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     gap: 10px;
