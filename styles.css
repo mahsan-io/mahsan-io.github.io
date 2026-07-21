@@ -196,8 +196,10 @@ body {
    HERO SECTION
    ============================================ */
 
-.hero {
-    padding: 100px 20px;
+.hero { /*
+    padding: 100px 20px;*/
+    padding: 60px 20px;
+    min-height: 80vh;
     background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
 }
 
