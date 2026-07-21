@@ -240,33 +240,15 @@ body {
     text-align: center;
 }*/
 .hero-image img {
-   /* width: 300px;
+    width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 40%;
     box-shadow: var(--shadow);
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     display: flex;
-    justify-content: flex-end;*/
-    width: 300px;
-    height: 300px;
-    max-width: 100%; /* Ensures responsiveness */
-    object-fit: cover;
-    border-radius: 50%; /* Clean circle */
-    /* Gradient Ring Effect */
-    padding: 5px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    /* Soft Glow Shadow */
-    box-shadow: 0 12px 35px rgba(99, 102, 241, 0.25);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Hover Lift Effect */
-.hero-image img:hover {
-    transform: translateY(-5px) scale(1.02);
-    box-shadow: 0 18px 40px rgba(99, 102, 241, 0.35);
-}
-
+    justify-content: flex-end;
+}   
 .placeholder-image {
     width: 300px;
     height: 300px;
