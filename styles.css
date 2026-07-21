@@ -238,7 +238,7 @@ body {
     text-align: center;
 }
 
-.placeholder-image {
+/*.placeholder-image {
     width: 300px;
     height: 300px;
     margin: 0 auto;
@@ -250,6 +250,14 @@ body {
     font-size: 150px;
     color: rgba(255, 255, 255, 0.3);
     box-shadow: var(--shadow);
+
+}*/
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+   box-shadow: var(--shadow);
 }
 
 /* ============================================
