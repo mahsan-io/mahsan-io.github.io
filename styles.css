@@ -467,7 +467,7 @@ body {
 @media (max-width: 768px) {
    .hero {
         min-height: auto;
-        padding: 60px 25px;
+       /* padding: 60px 25px;*/
     }
     .hero-container {
         grid-template-columns: 1fr;
