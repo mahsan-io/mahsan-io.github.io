@@ -2,18 +2,37 @@
 // MOBILE MENU TOGGLE
 // ============================================
 
+//const hamburger = document.querySelector('.hamburger');
+//const navLinks = document.querySelector('.nav-links');
+
+//if (hamburger) {
+  //  hamburger.addEventListener('click', () => {
+    //    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+    //});
+
+    // Close menu when a link is clicked
+   // document.querySelectorAll('.nav-links a').forEach(link => {
+     //   link.addEventListener('click', () => {
+       //     navLinks.style.display = 'none';
+        //});
+    //});
+//}
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 
 if (hamburger) {
+    // Toggle hamburger menu with .active class
     hamburger.addEventListener('click', () => {
-        navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+        navLinks.classList.toggle('active');
     });
 
-    // Close menu when a link is clicked
+    // Close menu only on MOBILE when a link is clicked
     document.querySelectorAll('.nav-links a').forEach(link => {
         link.addEventListener('click', () => {
-            navLinks.style.display = 'none';
+            // Only close if hamburger is visible (mobile view)
+            if (window.innerWidth <= 768) {
+                navLinks.classList.remove('active');
+            }
         });
     });
 }
