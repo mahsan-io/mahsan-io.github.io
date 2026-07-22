@@ -214,9 +214,9 @@ body {
    HERO SECTION
    ============================================ */
 
-.hero { /*
-    padding: 100px 20px;*/
-    padding: 60px 20px;
+.hero { 
+    position: relative;
+    padding: 40px 40px;
     min-height: 80vh;
     background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
 }
@@ -246,6 +246,9 @@ body {
     color: var(--text-secondary);
     margin-bottom: 2rem;
     line-height: 1.8;
+    text-align: justify;
+    position: absolute;
+   
 }
 
 .hero-buttons {
