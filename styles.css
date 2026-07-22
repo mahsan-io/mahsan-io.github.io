@@ -216,9 +216,9 @@ body {
 
 .hero { 
     min-height: calc(100vh - 80px);
-    padding: 70px 40px;
+    padding: 30px 40px 40px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     background:
         linear-gradient(
             135deg,
@@ -253,7 +253,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding-top: 80px;
 }
 
 /*.hero-content h1 {
@@ -269,7 +268,7 @@ body {
     margin-bottom: 1rem;*/
 }
 
-.hero .description {
+.hero-description {
     font-size: 1.1rem;
     color: var(--text-secondary);
     margin-bottom: 2rem;
