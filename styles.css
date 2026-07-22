@@ -231,7 +231,7 @@ body {
     background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));*/
 }
 
-.hero .container {
+.hero-container {
     width: 100%;
     max-width: 1350px;
     margin: 0 auto;
