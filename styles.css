@@ -266,8 +266,8 @@ body {
     border-radius: 50%;
     box-shadow: var(--shadow);
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    /*display: flex;
-    justify-content: flex-end;*/
+    display: flex;
+    justify-content: flex-end;
 }   
 .placeholder-image {
     width: 250px;
