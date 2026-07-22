@@ -216,7 +216,7 @@ body {
 
 .hero { 
     position: relative;
-    padding: 40px 40px;
+    padding: 120px 60px;
     min-height: 80vh;
     background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
 }
