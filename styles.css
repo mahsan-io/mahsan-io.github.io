@@ -827,45 +827,75 @@ body {
     transition: var(--transition);
 }
 
-<!-- CERTIFICATIONS SECTION -->
-<section id="certifications" class="certifications">
-  <div class="container">
-    <h2 class="section-title">Certifications & Credentials</h2>
-    <div class="certifications-grid">
+/* ============================================
+   CERTIFICATIONS SECTION
+   ============================================ */
 
-      <div class="cert-card">
-        <div class="cert-badge">
-          <i class="fas fa-certificate"></i>
-        </div>
-        <h3>BTEC Level 5 HND in Computing & System Development</h3>
-        <p class="cert-issuer">Pearson (UK)</p>
-        <p class="cert-date">2019</p>
-        <p class="cert-detail">Advanced diploma in systems development, networking, and infrastructure</p>
-      </div>
+.certifications {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(139, 92, 246, 0.05));
+}
 
-      <div class="cert-card">
-        <div class="cert-badge">
-          <i class="fas fa-certificate"></i>
-        </div>
-        <h3>Cisco Networking Academy Certification</h3>
-        <p class="cert-issuer">Cisco Systems</p>
-        <p class="cert-date">2015</p>
-        <p class="cert-detail">Foundational networking concepts and routing protocols</p>
-      </div>
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-      <div class="cert-card">
-        <div class="cert-badge">
-          <i class="fas fa-certificate"></i>
-        </div>
-        <h3>NVQ Level 04 - Computer Hardware & Network Technician</h3>
-        <p class="cert-issuer">Vocational Training Authority (VTA)</p>
-        <p class="cert-date">2016</p>
-        <p class="cert-detail">Hands-on certification in hardware maintenance, networking, and troubleshooting</p>
-      </div>
+.cert-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid var(--primary-color);
+  text-align: center;
+  transition: all 0.3s ease;
+}
 
-    </div>
-  </div>
-</section>
+.cert-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.cert-badge {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.cert-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.cert-issuer {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.cert-date {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.cert-detail {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
 
 
 /* ============================================
