@@ -672,6 +672,39 @@ body {
 }
 
 
+/* ============================================
+   PROJECT CARDS ENHANCEMENTS
+   ============================================ */
+
+.project-header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+
+.project-header h3 {
+  color: white;
+}
+
+.project-header p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.project-meta {
+  background: var(--light-bg);
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.project-meta div {
+  flex: 1;
+}
+
+.project-meta strong {
+  color: var(--primary-color);
+}
+
+
+
 /* =========================
    EXPERIENCE TIMELINE
 ========================= */
@@ -793,6 +826,47 @@ body {
     border-radius: 10px;
     transition: var(--transition);
 }
+
+<!-- CERTIFICATIONS SECTION -->
+<section id="certifications" class="certifications">
+  <div class="container">
+    <h2 class="section-title">Certifications & Credentials</h2>
+    <div class="certifications-grid">
+
+      <div class="cert-card">
+        <div class="cert-badge">
+          <i class="fas fa-certificate"></i>
+        </div>
+        <h3>BTEC Level 5 HND in Computing & System Development</h3>
+        <p class="cert-issuer">Pearson (UK)</p>
+        <p class="cert-date">2019</p>
+        <p class="cert-detail">Advanced diploma in systems development, networking, and infrastructure</p>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-badge">
+          <i class="fas fa-certificate"></i>
+        </div>
+        <h3>Cisco Networking Academy Certification</h3>
+        <p class="cert-issuer">Cisco Systems</p>
+        <p class="cert-date">2015</p>
+        <p class="cert-detail">Foundational networking concepts and routing protocols</p>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-badge">
+          <i class="fas fa-certificate"></i>
+        </div>
+        <h3>NVQ Level 04 - Computer Hardware & Network Technician</h3>
+        <p class="cert-issuer">Vocational Training Authority (VTA)</p>
+        <p class="cert-date">2016</p>
+        <p class="cert-detail">Hands-on certification in hardware maintenance, networking, and troubleshooting</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 /* ============================================
    CONTACT SECTION
