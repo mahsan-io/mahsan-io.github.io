@@ -925,65 +925,62 @@ body {
     .hamburger {
         display: flex;
     }
-
     .nav-links {
         display: none;
     }
-
     .section-title {
         font-size: 2rem;
     }
-
     .hero .container {
         grid-template-columns: 1fr;
     }
-
     .hero-content h1 {
         font-size: 2.5rem;
     }
-
     .hero .subtitle {
         font-size: 1.2rem;
     }
-
     .hero-buttons {
         flex-direction: column;
     }
-
     .hero-buttons .btn {
         text-align: center;
     }
-
     .placeholder-image {
         width: 250px;
         height: 250px;
         font-size: 120px;
     }
-
     .about-content {
         grid-template-columns: 1fr;
     }
-
     .about-stats {
         grid-template-columns: 1fr;
     }
-
     .contact-content {
         grid-template-columns: 1fr;
     }
-
     .footer .container {
         flex-direction: column;
         gap: 1.5rem;
     }
-
     .projects-grid {
         grid-template-columns: 1fr;
     }
-
     .skills-grid {
         grid-template-columns: 1fr;
     }
+.about-content,
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+    .timeline-item {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .timeline-date {
+        padding-left: 10px;
+    }   
 }
 
 @media (max-width: 480px) {
