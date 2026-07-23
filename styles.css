@@ -671,6 +671,70 @@ body {
     font-weight: 600;
 }
 
+
+/* =========================
+   EXPERIENCE TIMELINE
+========================= */
+
+.experience {
+    background: #f8fafc;
+}
+
+.timeline {
+    max-width: 950px;
+    margin: auto;
+}
+
+.timeline-item {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 30px;
+    margin-bottom: 45px;
+}
+
+.timeline-date {
+    color: #6366f1;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.timeline-content {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 4px solid #6366f1;
+    box-shadow:
+        0 5px 20px rgba(15, 23, 42, 0.06);
+}
+
+.timeline-content h3 {
+    color: #1e293b;
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.timeline-content h4 {
+    color: #6366f1;
+    margin-bottom: 5px;
+}
+
+.location {
+    color: #64748b;
+    margin-bottom: 18px;
+}
+
+.timeline-content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.timeline-content li {
+    color: #475569;
+    margin-bottom: 10px;
+}
+
+
+
 /* ============================================
    SKILLS SECTION
    ============================================ */
